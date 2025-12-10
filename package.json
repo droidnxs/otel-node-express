@@ -1,5 +1,5 @@
 {
-  "name": "otel-nodejs-express",
+  "name": "otel-node-express",
   "version": "0.0.1",
   "description": "OpenTelemetry Express Instrumentation",
   "type": "module",
