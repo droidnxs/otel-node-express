@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "start": "npx tsx --import @opentelemetry/auto-instrumentations-node/register src/api.ts",
+    "start": "npx tsx --experimental-loader=@opentelemetry/instrumentation/hook.mjs --import @opentelemetry/auto-instrumentations-node/register src/api.ts",
     "clean": "rm -rf dist"
   },
   "dependencies": {
